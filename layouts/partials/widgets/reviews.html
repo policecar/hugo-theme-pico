@@ -1,0 +1,20 @@
+<section id="reviews">
+	<div class="text-center w-full">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			{{ .Title }}
+		</h1>
+		{{ with .Params.subtitle}}
+		<h2 class="font-light mt-0">{{ . }}</h2>
+
+		<div>
+			<center>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.5363210246865!2d13.377731812255975!3d52.52372993583695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851f36fc08d4f%3A0x39dc2822e8a4e602!2sTalternative%20tours!5e0!3m2!1sen!2sde!4v1708873518045!5m2!1sen!2sde" width="834" height="487" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+			</center>
+		</div>
+
+		<!-- <div style="text-align: center; max-width: 500px; margin: auto;">
+		</div> -->
+		{{ end }}
+	</div>
+
+</section>
